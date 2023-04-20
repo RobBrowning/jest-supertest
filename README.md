@@ -1,8 +1,8 @@
-Jest Supertest Example with SWAPI API
+# Jest Supertest Example with SWAPI API
 
 This is an example of using Jest and Supertest to test the SWAPI (Star Wars API) using the /starships/ endpoint.
 
-Prerequisites
+## Prerequisites
 
 To run these tests, you'll need:
 Node.js (v10.13 or higher)
@@ -10,24 +10,25 @@ npm
 Installation
 
 Clone this repository to your local machine:
-git clone https://github.com/your-username/swapi-jest-supertest.git
+`git clone https://github.com/your-username/swapi-jest-supertest.git`
+
 Navigate to the project directory:
 
-cd swapi-jest-supertest
+`cd swapi-jest-supertest`
+
 Install the dependencies using your package manager of choice:
 
-npm install
+`npm install`
 
 To run the tests, simply run the following command in your terminal:
 
-npm test
+`npm test`
 
 This will run the Jest test runner and execute the tests in the starships.test.js file.
 
 If all the tests pass, you should see output like this:
 
-bash
-Copy code
+
  PASS  ./starships.test.js
   Starships API endpoint
     ✓ should return a 200 status code (76 ms)
