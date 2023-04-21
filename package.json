@@ -1,9 +1,10 @@
 {
   "scripts": {
     "test": "jest --passWithNoTests"
-},
+  },
   "devDependencies": {
     "jest": "^29.5.0",
-    "supertest": "^6.3.3"
+    "supertest": "^6.3.3",
+    "joi": "^17.9.1"
   }
 }
