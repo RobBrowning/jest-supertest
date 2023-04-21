@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "test": "jest --passWithNoTests --reporters=jest-junit"
+    "test": "jest --reporters=jest-junit --outputDirectory=./custom-test-results"
   },
   "devDependencies": {
     "jest": "^29.5.0",
-    "supertest": "^6.3.3",
-    "joi": "^17.9.1"
+    "jest-junit": "^16.0.0",
+    "joi": "^17.9.1",
+    "supertest": "^6.3.3"
   }
 }

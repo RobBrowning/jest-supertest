@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="1.501">
+  <testsuite name="People API endpoint" errors="0" failures="0" skipped="0" timestamp="2023-04-21T12:56:08" time="1.046" tests="2">
+    <testcase classname="People API endpoint should return a 200 status code" name="People API endpoint should return a 200 status code" time="0.477">
+    </testcase>
+    <testcase classname="GET /people/1 should return a valid schema" name="GET /people/1 should return a valid schema" time="0.154">
+    </testcase>
+  </testsuite>
+  <testsuite name="Starships API endpoint" errors="0" failures="0" skipped="0" timestamp="2023-04-21T12:56:09" time="0.415" tests="1">
+    <testcase classname="Starships API endpoint should return a 200 status code" name="Starships API endpoint should return a 200 status code" time="0.264">
+    </testcase>
+  </testsuite>
+</testsuites>
